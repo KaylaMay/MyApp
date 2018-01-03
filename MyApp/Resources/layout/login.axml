@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="230dp"
+    android:paddingLeft="120dp"
+    android:paddingRight="24dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:text="Email" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="261.0dp"
+        android:layout_height="wrap_content"
+        android:hint="miles@gmail.com"
+        android:textColorHint="@color/material_grey_300"
+        android:id="@+id/txtemail"
+        android:layout_marginRight="1.5dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:text="Password" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="262.0dp"
+        android:layout_height="wrap_content"
+        android:hint="***********"
+        android:textColorHint="@color/material_grey_300"
+        android:id="@+id/txtpassword"
+        android:layout_marginLeft="0.0dp" />
+    <Button
+        android:layout_width="250.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogIn"
+        android:text="Login"
+        android:layout_marginRight="0.0dp" />
+</LinearLayout>
